@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="17C88" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Newnote" representedClassName="Newnote" syncable="YES" codeGenerationType="class">
+        <attribute name="example" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="newword" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tittle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typeofword" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Newnote" positionX="-63" positionY="-18" width="128" height="120"/>
+    </elements>
+</model>

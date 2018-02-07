@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="IiM-hz-dqw">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Notes Table View Controller-->
+        <scene sceneID="3Fx-pW-8JY">
+            <objects>
+                <tableViewController id="IiM-hz-dqw" customClass="NotesTableViewController" customModule="ImNote" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="oCe-Dr-YbG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell " rowHeight="193" id="eok-nm-bZ2" customClass="NoteTableViewCell" customModule="ImNote" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="193"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eok-nm-bZ2" id="Rof-VN-Vvy">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="192.66666666666666"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Q8A-Qr-5vs">
+                                            <rect key="frame" x="0.0" y="-10" width="413.66666666666669" height="203"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mount Everest " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r2y-nG-S1z">
+                                            <rect key="frame" x="149.66666666666666" y="21" width="114.99999999999997" height="24"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a photo of Mt.Everest " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yBn-uv-7Ca">
+                                            <rect key="frame" x="95.666666666666686" y="135" width="223" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="21" id="OR6-CZ-hp4"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="yBn-uv-7Ca" firstAttribute="centerX" secondItem="r2y-nG-S1z" secondAttribute="centerX" id="Bfb-Ow-tH2"/>
+                                        <constraint firstItem="r2y-nG-S1z" firstAttribute="top" secondItem="Rof-VN-Vvy" secondAttribute="topMargin" constant="10" id="CwW-OI-fr4"/>
+                                        <constraint firstItem="yBn-uv-7Ca" firstAttribute="top" secondItem="r2y-nG-S1z" secondAttribute="bottom" constant="90" id="IJY-1l-Yu8"/>
+                                        <constraint firstItem="Q8A-Qr-5vs" firstAttribute="leading" secondItem="Rof-VN-Vvy" secondAttribute="leading" id="IOh-gc-bx9"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="Q8A-Qr-5vs" secondAttribute="bottom" constant="-11" id="LZQ-Pp-tE4"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="yBn-uv-7Ca" secondAttribute="bottom" constant="26" id="RtK-at-sNC"/>
+                                        <constraint firstItem="Q8A-Qr-5vs" firstAttribute="top" secondItem="Rof-VN-Vvy" secondAttribute="topMargin" constant="-21" id="Sez-nu-Htf"/>
+                                        <constraint firstItem="r2y-nG-S1z" firstAttribute="centerX" secondItem="Rof-VN-Vvy" secondAttribute="centerX" id="Z2h-Aj-29a"/>
+                                        <constraint firstItem="Q8A-Qr-5vs" firstAttribute="centerX" secondItem="r2y-nG-S1z" secondAttribute="centerX" id="h1u-qu-eVR"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="backgroundImageView" destination="Q8A-Qr-5vs" id="tT0-lN-3Oy"/>
+                                    <outlet property="descriptionLabel" destination="yBn-uv-7Ca" id="eQh-X3-EVI"/>
+                                    <outlet property="nameLabel" destination="r2y-nG-S1z" id="YFh-6T-IL9"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="IiM-hz-dqw" id="F22-hj-oRn"/>
+                            <outlet property="delegate" destination="IiM-hz-dqw" id="pzz-dY-x5G"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="0yS-d6-VZN">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="g7a-kf-him">
+                            <connections>
+                                <action selector="addNote:" destination="IiM-hz-dqw" id="FsA-I7-jNL"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gH0-Ju-ovF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="461" y="75"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="yAJ-my-njH">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dag-yn-3mI" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="oDj-zL-ufB">
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="IiM-hz-dqw" kind="relationship" relationship="rootViewController" id="phe-CA-W5z"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AQ1-Ba-sSW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-384" y="101"/>
+        </scene>
+    </scenes>
+</document>

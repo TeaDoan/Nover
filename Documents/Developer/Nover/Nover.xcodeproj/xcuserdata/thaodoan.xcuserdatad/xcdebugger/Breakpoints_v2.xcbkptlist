@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Nover/NoteTableViewCell.swift"
+            timestampString = "536895227.766426"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "7"
+            endingLineNumber = "7"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Nover.NoteTableViewCell.__deallocating_deinit"
+                  moduleName = "Nover"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thaodoan/Documents/Developer/Nover/Nover/NoteTableViewCell.swift"
+                  timestampString = "536895227.8609819"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Nover.NoteTableViewCell.__allocating_init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; Nover.NoteTableViewCell"
+                  moduleName = "Nover"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thaodoan/Documents/Developer/Nover/Nover/NoteTableViewCell.swift"
+                  timestampString = "536895227.864748"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "13">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Nover.NoteTableViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; Nover.NoteTableViewCell"
+                  moduleName = "Nover"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thaodoan/Documents/Developer/Nover/Nover/NoteTableViewCell.swift"
+                  timestampString = "536895227.867273"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Nover.NoteTableViewCell.__allocating_init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;Nover.NoteTableViewCell&gt;"
+                  moduleName = "Nover"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thaodoan/Documents/Developer/Nover/Nover/NoteTableViewCell.swift"
+                  timestampString = "536895227.869682"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Nover.NoteTableViewCell.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;Nover.NoteTableViewCell&gt;"
+                  moduleName = "Nover"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thaodoan/Documents/Developer/Nover/Nover/NoteTableViewCell.swift"
+                  timestampString = "536895227.87219"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "46">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
